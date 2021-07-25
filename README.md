@@ -125,3 +125,14 @@ This expression will filter all of the below JSON objects.
 As we can see, no matter what the JSON looks like, if any part of the JSON can
 match pattern, then the whole matching JSON will pass the filter. This behaviour
 can be controlled by specifying the result select operator.
+
+# Development
+
+Dependency:
+* python 3.6+
+    * pytest
+* GNU make
+
+To bootstrap this project for the very first time, please run `make dependency`.
+
+To build this project for testing, please run `make` or `make test`.
